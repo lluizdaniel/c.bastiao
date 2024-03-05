@@ -1,0 +1,78 @@
+
+header {
+    width: 100%;
+}
+
+.header-content {
+    padding: 0 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 40px;
+}
+
+.header-buttons a {
+    font-size: 1.4em;
+    color: $white-normal;
+    text-shadow: 1px 1px 1px black;
+    padding: 6px 35px;
+    border: 1px solid $primary-normal;
+    border-radius: 3px;
+    transition: background-color 0.5s;
+    
+}
+
+#peca_ja::after {
+    content: url("assets/whatsapp.png");
+    margin-left: 15px;
+    height: 50px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+#cardapio::after{
+    content: url("assets/download.png");
+    margin-left: 15px;
+    height: 50px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.header-buttons a:hover {
+    border: 1px solid $primary-light;
+    background-color: $primary-light;
+}
+
+@media screen and (max-width: 768px){
+    .header-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-logo {
+        margin-top: 25px;
+    }
+
+    .header-buttons {
+        margin-top: 100px;
+        flex-direction: column;
+        gap: 20px;
+
+        a {
+            text-align: center;
+        }
+    }
+}
