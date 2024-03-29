@@ -28,7 +28,7 @@
 .hero {
     color: $white-normal;
     padding: 24px 24px;
-    min-height: 88vh;
+    min-height: 60vh;
 
     display: flex;
     align-items: center;
@@ -129,4 +129,8 @@
             line-height: 150%;
         }
     }
+}
+
+.about {
+    color: white;
 }

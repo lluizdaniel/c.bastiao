@@ -106,7 +106,7 @@ header {
 .hero {
   color: #ffffff;
   padding: 24px 24px;
-  min-height: 88vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -196,6 +196,10 @@ header {
     line-height: 150%;
   }
 }
+.about {
+  color: white;
+}
+
 body {
   font-family: "sora", sans-serif;
   width: 100%;
