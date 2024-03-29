@@ -239,10 +239,6 @@ header {
   text-align: center;
 }
 
-.lanches-column {
-  display: flex;
-}
-
 body {
   font-family: "sora", sans-serif;
   width: 100%;
