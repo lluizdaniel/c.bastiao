@@ -228,7 +228,15 @@ header {
 }
 
 .lanches {
-  color: white;
+  background-color: #ffffff;
+}
+
+.lanches-content {
+  padding: 40px 0 14px 0;
+}
+.lanches-content h2 {
+  font-size: 1.5em;
+  text-align: center;
 }
 
 body {
