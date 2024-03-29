@@ -220,9 +220,15 @@ header {
   margin-bottom: 14px;
   font-size: 1.2em;
   line-height: 150%;
+  text-align: justify;
+  font-weight: 300;
 }
 .about-content p time {
   font-weight: bold;
+}
+
+.lanches {
+  color: white;
 }
 
 body {
