@@ -8,6 +8,23 @@
     position: relative;
 }
 
+.bg-home::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url("./assets/bg_home.png");
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: 0.05;
+}
+
 .hero {
     color: $white-normal;
     padding: 24px 24px;
@@ -64,7 +81,7 @@
 }
 
 .hero-imagem{
-    max-width: 730px;
+    max-width: 600px;
 }
 
 @media screen and (max-width: 768px) {
@@ -74,10 +91,6 @@
 
         display: flex;
         align-items: flex-start;
-    }
-
-    .hero-imagem{
-        display: none;
     }
 
     .bg-home::before {
@@ -95,6 +108,10 @@
         background-position: center center;
         background-attachment: fixed;
         opacity: 0.15;
+    }
+
+    .hero-imagem{
+        display: none;
     }
 
     .hero-chamada {
