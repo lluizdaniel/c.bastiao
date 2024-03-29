@@ -105,7 +105,7 @@ header {
 
 .hero {
   color: #ffffff;
-  padding: 24px 24px;
+  padding: 24px 24px 60px 24px;
   min-height: 60vh;
   display: flex;
   align-items: center;
@@ -197,7 +197,32 @@ header {
   }
 }
 .about {
-  color: white;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.about-content {
+  padding: 34px 14px 64px 14px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px black;
+}
+.about-content h2 {
+  font-size: 1.8em;
+  margin-bottom: 2px;
+}
+.about-content .linha {
+  background-image: linear-gradient(to right, #b59a63, #000000);
+  height: 2px;
+  width: 45%;
+  margin-bottom: 24px;
+}
+.about-content p {
+  margin-bottom: 14px;
+  font-size: 1.2em;
+  line-height: 150%;
+}
+.about-content p time {
+  font-weight: bold;
 }
 
 body {

@@ -27,7 +27,7 @@
 
 .hero {
     color: $white-normal;
-    padding: 24px 24px;
+    padding: 24px 24px 60px 24px;
     min-height: 60vh;
 
     display: flex;
@@ -132,5 +132,35 @@
 }
 
 .about {
-    color: white;
+    color: $white-normal;
+    overflow: hidden;
+
+}
+
+.about-content {
+    padding: 34px 14px 64px 14px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px black;
+
+    h2 {
+        font-size: 1.8em;
+        margin-bottom: 2px;
+    }
+
+    .linha {
+        background-image: linear-gradient(to right, $primary-normal , $black-dark );
+        height: 2px;
+        width: 45%;
+        margin-bottom: 24px;
+    }
+
+    p {
+        margin-bottom: 14px;
+        font-size: 1.2em;
+        line-height: 150%;
+
+        time{
+            font-weight: bold;
+        }
+    }
 }
