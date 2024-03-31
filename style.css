@@ -231,12 +231,17 @@ header {
   background-color: #ffffff;
 }
 
-.lanches-content {
+.lanches-title {
   padding: 40px 0 14px 0;
 }
-.lanches-content h2 {
+.lanches-title h2 {
   font-size: 2.5em;
   text-align: center;
+}
+
+.lanches-column {
+  padding: 14px;
+  display: flex;
 }
 
 body {

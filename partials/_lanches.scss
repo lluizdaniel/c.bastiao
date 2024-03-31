@@ -3,7 +3,7 @@
     background-color: $white-normal;    
 }
 
-.lanches-content {
+.lanches-title {
     padding: 40px 0 14px 0;
 
     h2 {
@@ -12,3 +12,8 @@
     }
 }
 
+
+.lanches-column {
+    padding: 14px;
+    display: flex;
+}
