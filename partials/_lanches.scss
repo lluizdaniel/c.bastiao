@@ -21,23 +21,60 @@
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 20px;
 }
 
-.lanches-content {
-    flex: 1 1 auto;
+.lanche-content {
+    max-width: 400px;
+    box-shadow: 0 0 5px $primary-dark;
+    margin-bottom: 25px;
+    border-radius: 3px;
 }
 
 .lanche-imagem {
-    max-width: 350px;
+    max-width: 455px;
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
 }
 
-.lanche-info h3{
-    text-align: center;
-    font-size: 1.4em;
-    margin: 15px;
+.lanche-info {
+    
+    h3 {
+        text-align: center;
+        font-size: 1.4em;
+        margin: 15px;
+    }
+
+    .sobre {
+        height: 130px;
+        text-align: center;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+        padding: 5px;
+    }
 }
 
 .lanche-button {
     display: flex;
+    align-items: flex-end;
+
+    p {
+        text-align: center;
+        flex: 1 ;
+        font-size: 1.3em;
+        font-weight: 600;
+        height: 32px;
+        padding: 3px;
+    }
+
+    a {
+        background-color: $primary-dark;
+        font-size: 1.4em;
+        text-align: center;
+        color: $white-light;
+        flex: 1;
+        height: 32px;
+        padding: 3px;
+        border-radius: 1px 0 3px 0;
+    }
 }

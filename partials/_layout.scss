@@ -93,6 +93,7 @@
         align-items: flex-start;
     }
 
+
     .bg-home::before {
         content: '';
         display: block;
@@ -134,7 +135,7 @@
 .about {
     color: $white-normal;
     overflow: hidden;
-
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.514);
 }
 
 .about-content {
