@@ -237,10 +237,34 @@ header {
 .lanches-title h2 {
   font-size: 2.5em;
   text-align: center;
+  text-decoration: underline;
 }
 
 .lanches-column {
   padding: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.lanches-content {
+  flex: 1 1 auto;
+}
+
+.lanche-imagem {
+  max-width: 350px;
+}
+
+.lanche-info h3 {
+  text-align: center;
+  font-size: 1.4em;
+  margin: 15px;
+}
+
+.lanche-button {
   display: flex;
 }
 
